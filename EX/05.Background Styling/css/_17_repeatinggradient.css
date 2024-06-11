@@ -1,0 +1,38 @@
+/*그라데이션의 방복 : 그라데이션의 반복은 단순 색상을 반복하는 것이 아닌 
+그라데이션 패턴을 반복하는 것이다.*/
+
+div{
+    width: 500px;
+    height: 300px;
+    margin: 20px;
+}
+
+.box1{
+    background: red;
+    /*repeating-linear-gradient: 선형 그라데이션의 반복*/
+    background: -webkit-repeating-linear-gradient(red, yellow 20px );
+    background: -moz-repeating-linear-gradient(red, yellow 20px);
+    background: -o-repeating-linear-gradient(red, yellow 20px);
+    background: repeating-linear-gradient(red, yellow 20px );
+
+}
+
+.box2{
+    background: red;
+     /*repeating-radial-gradient: 원형 그라데이션의 반복*/
+    background: -webkit-repeating-radial-gradient(red, yellow 20px );
+    background: -moz-repeating-radial-gradient(red, yellow 20px);
+    background: -o-repeating-radial-gradient(red, yellow 20px);
+    background: repeating-radial-gradient(red, yellow 20px );
+
+}
+
+.box3{
+    background: red;
+     /*repeating-radial-gradient: 원형 그라데이션의 반복*/
+    background: -webkit-repeating-radial-gradient(yellow, yellow, red 20px, red 40px );
+    background: -moz-repeating-radial-gradient(yellow, yellow , red 20px, red 40px );
+    background: -o-repeating-radial-gradient(yellow, yellow, red 20px, red 40px );
+    background: repeating-radial-gradient(yellow, yellow, red 20px, red 40px );
+
+}

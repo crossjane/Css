@@ -1,0 +1,24 @@
+div{
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+
+}
+
+.box1{
+    background: grey;
+    background: -webkit-repeating-radial-gradient(white, grey 20px);
+    background: -moz-repeating-radial-gradient(white, grey 20px);
+    background: -o-repeating-radial-gradient(white, grey 20px);
+    background: repeating-radial-gradient(white, grey 20px);
+
+}
+
+.box2{
+    background: grey;
+    background: -webkit-repeating-radial-gradient(white, white 10%, gray 10%, grey 20%);
+    background: -moz-repeating-radial-gradient(white, white 10%, gray 10%, grey 20%);
+    background: -o-repeating-radial-gradient(white, white 10%, gray 10%, grey 20%);
+    background: repeating-radial-gradient(white, white 10%, gray 10%, grey 20%);
+
+}
