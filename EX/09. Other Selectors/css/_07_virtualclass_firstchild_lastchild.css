@@ -1,0 +1,18 @@
+/*:first-child => 자식 태그 중 첫번째 자식태그에 스타일 지정
+:last-child => w자식 태그 중 마지막 자식태그에 스타일 지정*/
+table, td{
+    border:1px solid black;
+    border-collapse: collapse;
+}
+
+ tr:first-child{
+    background:black;
+    color: hotpink;
+   
+}
+
+tr:last-child{
+    background:red;
+    color: white;
+   
+}

@@ -1,0 +1,64 @@
+/*@keyframes: css스타일이 바뀌는 지점을 설정
+        지점선택자와 함께 사용한다. 
+        지점선택자는 animation-duration 의 기간을 0%(시작지점) ~ 100%(끝지점)
+        시작지점과 끝지점만 지정할때는 to, from키워드로 지점선택자 사용*/
+
+    
+div{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    background-color: blue;
+    
+
+     
+   
+}
+
+ /*@keyframes 옆에 애니메이션 식별자(이름)지정*/
+@keyframes change-bgcolor{
+    /*지점선택자를 이용해서 지점별로 스타일을 지정*/
+    from{
+        background: blue;
+
+    }
+    to{
+        background : red;
+    }
+}
+
+
+@keyframes change-brdcolor{
+    
+    0%{
+        border-color: black;
+
+    }
+    10%{
+        border-color: brown;
+    }
+
+    40%{
+        border-color: aqua
+    }
+
+    100%{
+        border-color: hotpink;
+    }
+
+
+    
+}
+
+
+.box1{
+/*animation-name 속성으로 위에서 생성한 애니메이션을 지정한다.*/
+     animation-name: change-bgcolor;
+     animation-duration: 5s;
+}
+
+.box2{
+    animation-name: change-brdcolor;
+    animation-duration: 3s;
+
+}
